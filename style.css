@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding :0;
+    display: flexbox;
+    background: linear-gradient(purple,violet,yellow,rgb(233, 59, 7));
+}
+.cover{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px dotted black;
+    height: 99.5vh;
+    background-color: rgb(0, 0, 0);
+    
+    background-image: url(/brad-starkey-gLACRbgxzpI-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* use justification and alignment in container not with item inside the container */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.button{
+    border: 1px dashed grey;
+    height: 6%;
+    padding: 5px;
+    border-radius: 20%;
+    background: linear-gradient(purple,black);
+    
+}
+button{
+    margin-right: 2%;
+    margin-left: 2%;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-stretch: expanded;
+    text-decoration:line-through ;
+    text-transform: uppercase;
+    
+    
+}
+.button:hover {
+    cursor: help;
+    transition: 0.9s linear ;
+    /* transform: scale(1.1) ; */
+    transform: translatey(-10px);
+    text-decoration:none ;
+    box-shadow:  0px 3px 100px 5px rgb(252, 252, 252);
+    border: 2px solid rgb(255, 255, 255);
+   
+    color: white;
+
+}
+
+
+
+
